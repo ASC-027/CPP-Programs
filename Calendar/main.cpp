@@ -44,7 +44,7 @@ int main() {
         newMinute = newMinute.insert(0, "0");
     }
 
-    if (hour = 24) {
+    if (hour == 24) {
         newHour = 12;
     }
 
