@@ -1,6 +1,6 @@
     std::time_t t = std::time(nullptr);
-
     std::tm* localTime = std::localtime(&t);
+
     int month = localTime->tm_mon + 1;
 
     int dayOfMonth = localTime->tm_mday;
