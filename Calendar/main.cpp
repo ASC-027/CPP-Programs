@@ -45,7 +45,7 @@ int main() {
     }
 
     if (hour = 24) {
-        newHour = 1;
+        newHour = 12;
     }
 
     std::cout << "\nThe current date in " << region << " is " << monthName << " " << dayOfMonth << ", " << year << "\n";
